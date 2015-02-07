@@ -5,13 +5,12 @@
 }
 
 #firstDiv{
-    width: 25vw;
+    width: 35vw;
     height:5vh;
     margin-left: 3vw;
     margin-top: 5vh;
     float: left;
     background: black;
-    clear: left;
 }
 
 #menuDiv{
@@ -43,7 +42,7 @@
 }
 
 #left{
-    width: 40vw;
+    width: 27vw;
     height: 20vh;
     margin-left: 3vw;
     margin-top: 3vh;
@@ -53,9 +52,9 @@
 }
 
 #middle{
-    width: 24vw;
+    width: 27vw;
     height: 20vh;
-    margin-left: 1.5vw;
+    margin-left: 5.5vw;
     margin-bottom: 5vh;
     margin-top: 3vh;
     background: black;    
@@ -63,11 +62,18 @@
 }
 
 #right{
-    width: 24vw;
+    width: 27vw;
     height: 20vh;
-    margin-left: 1.5vw;
+    margin-left: 5.5vw;
     margin-bottom: 5vh;
     margin-top: 3vh;
     background: black;    
     float: left;
+}
+
+#text {
+    clear:both;
+    width: 80vw;
+    margin-left: 3vw;
+    margin-right: 8vw;
 }

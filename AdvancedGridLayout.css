@@ -43,7 +43,7 @@
 }
 
 #left{
-    width: 37vw;
+    width: 40vw;
     height: 20vh;
     margin-left: 3vw;
     margin-top: 3vh;
@@ -55,7 +55,7 @@
 #middle{
     width: 24vw;
     height: 20vh;
-    margin-left: 3vw;
+    margin-left: 1.5vw;
     margin-bottom: 5vh;
     margin-top: 3vh;
     background: black;    
@@ -65,7 +65,7 @@
 #right{
     width: 24vw;
     height: 20vh;
-    margin-left: 3vw;
+    margin-left: 1.5vw;
     margin-bottom: 5vh;
     margin-top: 3vh;
     background: black;    

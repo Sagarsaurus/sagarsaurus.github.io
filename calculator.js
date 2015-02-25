@@ -39,7 +39,6 @@ function compute(button){
         if(character=="=") {
             if(operation=="/") {
                 if(arg2=="0") {
-                    console.log("got here");
                     document.getElementById("result").innerHTML = "infinity";
                 }
 
@@ -70,51 +69,7 @@ function compute(button){
             arg2+=character;
             document.getElementById("arg2").innerHTML = arg2;
         }
-    }
-    
-}
-
-function mouseOver(obj){
-    if(this.themeState==1 && this.buttonBackgroundState==1 || this.themeState==0 && this.buttonBackgroundState==1) {
-        obj.style.background="#009933"
-    }
-    else {
-        obj.style.background="#666";
-    }
-}
-
-function mouseDown(obj){
-    if(this.themestate==1 || this.buttonBackgroundState==1) {
-        obj.style.background="00FF33";
-        obj.style.boxShadow = "inset 1vh 1vh 1vh #888";
-
-    }
-    else {
-        obj.style.background="#444";
-        obj.style.boxShadow = "inset 1vh 1vh 1vh #888";
-    }
-}
-
-function mouseUp(obj){
-    if(this.themeState==1 || this.buttonBackgroundState==1) {
-        obj.style.background="#009933"
-        obj.style.boxShadow = "1vh 1vh 1vh #888";       
-    }
-    else {
-        obj.style.background="#666";
-        obj.style.boxShadow = "1vh 1vh 1vh #888";       
-    }
-
-
-}
-
-function mouseOut(obj){
-    if(this.themeState==1 || this.buttonBackgroundState==1) {
-        obj.style.background="green";
-    }
-    else {
-        obj.style.background="black";       
-    }
+    } 
 }
 
 function changeBackground(button) {
@@ -170,5 +125,46 @@ function changeTheme(button) {
             x[i].style.fontFamily = "Arial";
         }
         this.themeState=0;
+    }
+}
+
+function mouseOver(obj){
+    if(this.themeState==1 || this.buttonBackgroundState==1) {
+        obj.style.background="#009933"
+    }
+    else {
+        obj.style.background="#666";
+    }
+}
+
+function mouseDown(obj){
+    if(this.themestate==1 || this.buttonBackgroundState==1) {
+        obj.style.background="00FF33";
+        obj.style.boxShadow = "inset 1vh 1vh 1vh #888";
+
+    }
+    else {
+        obj.style.background="#444";
+        obj.style.boxShadow = "inset 1vh 1vh 1vh #888";
+    }
+}
+
+function mouseUp(obj){
+    if(this.themeState==1 || this.buttonBackgroundState==1) {
+        obj.style.background="#009933"
+        obj.style.boxShadow = "1vh 1vh 1vh #888";       
+    }
+    else {
+        obj.style.background="#666";
+        obj.style.boxShadow = "1vh 1vh 1vh #888";       
+    }
+}
+
+function mouseOut(obj){
+    if(this.themeState==1 || this.buttonBackgroundState==1) {
+        obj.style.background="green";
+    }
+    else {
+        obj.style.background="black";       
     }
 }

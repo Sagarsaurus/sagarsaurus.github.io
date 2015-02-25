@@ -27,6 +27,52 @@
     float:left;
 }
 
+#window{
+    width: 30vw;
+    height: 66vh;
+    background: black;
+    margin-left: 3vw;
+    border-radius: 4vw;
+    margin-top: 4vh;
+    float: left;
+}
+
+.argument{
+    font-size: 15vh;
+    text-align: right;
+    color: white;
+    line-height: 15vh;
+    margin-bottom: 2vh;
+    margin-right: 5vw;
+}
+
+#arg1{
+    margin-top: 5vh;
+}
+
+#arg2{
+    float: right;
+}
+
+
+#operation{
+    float:left;
+    margin-left: 5vw;
+    margin-right: 0vw;
+    text-align: left;
+}
+
+#divider{
+    clear: both;
+    height:2vh;
+    background: white;
+    visibility: hidden;
+}
+
+#result{
+    margin-top: 5vh;
+}
+
 #grid{
     width: 35vw;
     height: 60vh;
@@ -75,50 +121,4 @@
     font-size: 1.5vh;
     margin-left: 5vw;
     margin-right: 2vw;
-}
-
-#window{
-    width: 30vw;
-    height: 66vh;
-    background: black;
-    margin-left: 3vw;
-    border-radius: 4vw;
-    margin-top: 4vh;
-    float: left;
-}
-
-.argument{
-    font-size: 15vh;
-    text-align: right;
-    color: white;
-    line-height: 15vh;
-    margin-bottom: 2vh;
-    margin-right: 5vw;
-}
-
-#arg1{
-    margin-top: 5vh;
-}
-
-#arg2{
-    float: right;
-}
-
-
-#operation{
-    float:left;
-    margin-left: 5vw;
-    margin-right: 0vw;
-    text-align: left;
-}
-
-#divider{
-    clear: both;
-    height:2vh;
-    background: white;
-    visibility: hidden;
-}
-
-#result{
-    margin-top: 5vh;
 }

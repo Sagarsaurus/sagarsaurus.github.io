@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <script src="calculator.js"></script>
+        <link rel="stylesheet" type="text/css" href="calculator.css"> 
+    </head>
+
+    <body>
+        <div id="name">Sagar Laud</div>
+
+         <div id="buttonGrid">
+            <ul id="buttonRow">
+                <li class="button firstMenuButton" id="button" onclick="changeBackground(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">Change Background Color</li>
+                <li class="button menuButton" id="button" onclick="buttonBackground(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">Toggle Button Color</li>
+                <li class="button menuButton" id="button" onclick="changeTheme(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">Change Theme</li>
+            </ul>
+        </div>
+        
+        <div id="grid">
+
+            <div class="row">
+                <div class="button notEnd" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">7</div>
+                <div class="button notEnd" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)" style="background: black;">8</div>
+                <div class="button notEnd" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">9</div>
+                <div class="button" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">/</div>
+            </div>
+
+            <div class="row">
+                <div class="button notEnd" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">4</div>
+                <div class="button notEnd" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)" style="background: black;">5</div>
+                <div class="button notEnd" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">6</div>
+                <div class="button" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">x</div>
+            </div>
+
+            <div class="row">
+                <div class="button notEnd" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">1</div>
+                <div class="button notEnd" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)" style="background: black;">2</div>
+                <div class="button notEnd" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">3</div>
+                <div class="button" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">-</div>
+            </div>
+
+            <div class="row">
+                <div class="button zeroButton notEnd" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">0</div>
+                <div class="button notEnd" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)" style="background: black;">C</div>
+                <div class="button" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)">+</div>
+            </div>
+
+            <div class="row">
+                <div class="button equalsButton" id="button" onclick="compute(this)" onmouseover="mouseOver(this)" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmouseout="mouseOut(this)" style="background: black;">=</div>
+            </div> 
+
+        </div>
+        
+        <div id="window">
+            <div class="argument" id="arg1"></div>
+            <div class="argument" id="operation"></div>
+            <div class="argument" id="arg2"></div>
+            <div id="divider"></div>
+            <div class="argument" id="result"></div>
+        </div>
+
+    </body>
+</html>

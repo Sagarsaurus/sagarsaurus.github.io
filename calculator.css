@@ -1,0 +1,123 @@
+*{
+    font-family: arial, sans-serif;
+}
+
+#name{
+    width: 6vw;
+    height: 2.5vh;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    background-color: black;
+    color: white;
+}
+
+#buttons{
+    width: 40vw;
+    height: 2vh;
+    margin-left: 10vw;
+    margin-bottom: 3vh; 
+}
+
+.menuItem{
+    width: 8.5vw;
+    height: 5vh;
+    background: black;
+    float:left;
+}
+
+#grid{
+    width: 35vw;
+    height: 60vh;
+    margin-left: 10vw;
+    float: left;
+}
+
+.row{
+    height:10vh;
+    margin-top: 4vh;
+    margin-bottom: .5em;
+}
+
+.notEnd {
+    margin-right: 4vw;
+}
+
+.button{
+    width: 5vw;
+    line-height: 10vh;
+    font-size: 10vh;
+    text-align: center;
+    border-radius: 4vw;
+    box-shadow: 1vh 1vh 1vh #888;
+    background: black;
+    color: white;
+    float: left;
+}
+
+.zeroButton{
+    width: 14vw;
+}
+
+.equalsButton{
+    width: 32vw;
+}
+
+.firstMenuButton {
+    width: 12vw;
+    font-size: 1.5vh;
+    margin-left: 7vw;
+}
+
+.menuButton {
+    width: 12vw;
+    font-size: 1.5vh;
+    margin-left: 5vw;
+    margin-right: 2vw;
+}
+
+#window{
+    width: 30vw;
+    height: 66vh;
+    background: black;
+    margin-left: 3vw;
+    border-radius: 4vw;
+    margin-top: 4vh;
+    float: left;
+}
+
+.argument{
+    font-size: 15vh;
+    text-align: right;
+    color: white;
+    line-height: 15vh;
+    margin-bottom: 2vh;
+    margin-right: 5vw;
+}
+
+#arg1{
+    margin-top: 5vh;
+}
+
+#arg2{
+    float: right;
+}
+
+
+#operation{
+    float:left;
+    margin-left: 5vw;
+    margin-right: 0vw;
+    text-align: left;
+}
+
+#divider{
+    clear: both;
+    height:2vh;
+    background: white;
+    visibility: hidden;
+}
+
+#result{
+    margin-top: 5vh;
+}

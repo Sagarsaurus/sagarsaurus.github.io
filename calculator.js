@@ -111,7 +111,7 @@ function changeTheme(button) {
         }
         var x = document.getElementsByClassName("argument");
         for (var i = 0; i < x.length; i++) {
-            x[i].style.fontFamily = "Comic Sans";
+            x[i].style.fontFamily = "Comic Sans MS";
         }
         document.getElementById("window").style.background="green";
         document.getElementById("name").style.background="green";

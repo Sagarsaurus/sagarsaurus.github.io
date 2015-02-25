@@ -63,6 +63,7 @@ function compute(button){
                 answer = parseInt(arg1) + parseInt(arg2);
                 document.getElementById("result").innerHTML = answer.toFixed(6);
             }
+            document.getElementById("divider").style.visibility="visible";
             state = 2;
         }
 

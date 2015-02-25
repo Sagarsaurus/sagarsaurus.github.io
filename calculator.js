@@ -40,7 +40,7 @@ function compute(button){
         if(character=="=") {
             if(operation=="/") {
                 if(arg2=="0") {
-                    document.getElementById("result").innerHTML = "infinity";
+                    document.getElementById("result").innerHTML = "Ha";
                 }
 
                 else {

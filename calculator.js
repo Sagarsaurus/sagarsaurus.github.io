@@ -112,6 +112,7 @@ function changeTheme(button) {
         for (var i = 0; i < x.length; i++) {
             x[i].style.fontFamily = "Times New Roman";
         }
+        document.getElementById("window").style.background="green";
         this.themeState=1;
     }
     else if(this.themeState==1 && this.backgroundState==0 && this.buttonBackgroundState==0) {

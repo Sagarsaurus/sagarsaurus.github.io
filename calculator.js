@@ -23,13 +23,14 @@ function compute(button){
         state=0;
     }
     else if(state==0) {
-        if(character=="/" || character=="x" || character=="+" || character=="-") {
+        if((character=="/" || character=="x" || character=="+" || character=="-") && arg1.length > 0) {
+            console.log(arg1.length);
             operation = character;
             document.getElementById("operation").innerHTML = operation;
             state = 1;
         }
 
-        else {
+        else if(character != "/" && character!="x" && character!="+" && character!="-"){
             arg1+=character;
             document.getElementById("arg1").innerHTML = arg1;
         }
@@ -91,7 +92,7 @@ function buttonBackground(button){
         }
         this.buttonBackgroundState=1;
     }
-
+ 
     else if(this.themeState==0 && this.backgroundState==0 && this.buttonBackgroundState==1) {
         var x = document.getElementsByClassName("button");
         for (var i = 0; i < x.length; i++) {

@@ -45,23 +45,23 @@ function compute(button){
 
                 else {
                     answer = parseInt(arg1) / parseInt(arg2);
-                    document.getElementById("result").innerHTML = answer.toFixed(8);
+                    document.getElementById("result").innerHTML = answer.toFixed(6);
                 }
             }
 
             else if (operation=="x") {
                 answer = parseInt(arg1) * parseInt(arg2);
-                document.getElementById("result").innerHTML = answer.toFixed(8);
+                document.getElementById("result").innerHTML = answer.toFixed(6);
             }
 
             else if(operation=="-") {
                 answer = parseInt(arg1) - parseInt(arg2);
-                document.getElementById("result").innerHTML = answer.toFixed(8);
+                document.getElementById("result").innerHTML = answer.toFixed(6);
             }
 
             else if(operation=="+") {
                 answer = parseInt(arg1) + parseInt(arg2);
-                document.getElementById("result").innerHTML = answer.toFixed(8);
+                document.getElementById("result").innerHTML = answer.toFixed(6);
             }
             state = 2;
         }

@@ -1,0 +1,89 @@
+*{
+	padding:0;
+	border:0;
+	margin:0;
+	font-family: arial, sans-serif;
+}
+
+#logo{
+	width: 20vw;
+	height: 4vh;
+	background: black;
+	margin-top: 15vh;
+	margin-left: 10vw;
+	margin-bottom: 5vh;
+}
+
+#menu{
+	width: 40vw;
+	height: 2vh;
+	/*background: black;*/
+	margin-left: 10vw;
+	margin-bottom: 3vh;	
+}
+
+.menuItem{
+	float:left;
+	height: 2vh;
+	width: 8.5vw;
+	/*background: yellow;*/
+	background: black;
+	list-style-type: none;
+}
+
+#menuList :not(:last-child){
+	margin-right: 2vw;
+	/*background: blue;*/
+}
+
+#menuList :last-child{
+	margin-right: 0;
+	/*background: red;*/
+}
+
+#text{
+	float: left;
+	width: 40vw;
+	height: 53vh;
+	/*background: black;*/
+	margin-left: 10vw;
+}
+
+#text h1{
+	margin-top: 5vh;
+	margin-bottom: .5em;
+	font-size: 3em;
+}
+
+#text p{
+	line-height: 1.5em;
+}
+
+#pic{
+	float: left;
+	width: 30vw;
+	height: 53vh;
+	background: black;
+	margin-left: 3vw;
+	border-radius: 17.5vw;
+}
+
+
+/*==== Calculation ====*/
+/* HEIGHT 
+05 logo top
+04 logo
+05 logo bottom
+02 menu height
+03 menu bottom
+76 text height
+05 text bottom
+*/
+
+/* WIDTH of tex/pic strip
+15 margin-left
+40 text
+30 pic
+15 margin-right
+
+*/

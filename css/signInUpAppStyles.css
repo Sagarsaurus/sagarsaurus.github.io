@@ -1,0 +1,79 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: arial, sans-serif;
+	line-height: 2em;
+}
+
+#logo{
+	height:3vh;
+	width: 30vw;
+	float: left;
+	background: black;
+	margin-left: 3vw;
+	margin-top: 3vh;
+}
+
+#menu{
+	height:3vh;
+	width: 30vw;
+	float: right;
+	margin-right: 3vw;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+.menuItems{
+	float: right;
+	width: 8vw;
+	background: black;
+	margin-left: 2vw;
+	list-style-type: none;
+	color: white;
+	font-size:.75em;
+	text-align: center;
+
+}
+
+#main{
+	height:56.7vh;
+	width: 94vw;
+	background: black;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	clear: both;
+}
+
+#left{
+	height: 28.3vh;
+	width: 45.5vw;
+	float: left;
+	background: black;
+	margin-left: 3vw;
+	margin-top: 3vh;
+}
+
+#right{
+	height: 28.3vh;
+	width: 45.5vw;
+	float: right;
+	background: black;
+	margin-right: 3vw;
+	margin-top: 3vh;
+}
+
+/* ================================== */
+
+#signUp{
+	position: absolute;
+	top: 10vh;
+	height:80vh;
+	left:20vw;
+	width: 60vw;
+	background: white;
+	border-radius: 20px;
+}
+
+#requiredField{
+	color:red;
+}

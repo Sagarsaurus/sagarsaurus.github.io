@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Three Box Layout </title>
+		<link rel="stylesheet" type="text/css" href="css/signInUpAppStyles.css" />
+		<script src="js/signInUpApp.js"></script>
+	</head>
+
+	<body>
+		<div id="logo"> </div>
+		<div id="menu"> 
+			<ul>
+				<li class="menuItems">Sign-Up</li>
+				<li class="menuItems">Sign-In</li>
+				<li class="menuItems">Home</li>
+			</ul>
+		</div>
+		<div id="main"> </div>
+		<div id="left"> </div>
+		<div id="right"> </div>
+		
+		<div id="signUp">
+			<form id="signUpForm" name="signUpForm" method="POST">
+				Please Enter The following Information:<br>
+				<span id="firstName"> *First: </span>
+				<input type="text" id="First" name="First" value="Please Enter First Name"><br>
+				
+				<span id="lastName">*Last: </span>
+				<input type="text" id="Last" name="Last" value="Please Enter Last Name"><br>
+				
+				<span id="userid">*User ID:</span>
+				<input type="text" id="UserID" name="UserID" value="Please Enter a User ID">(Your user id must be at least 8 characters long)<br>
+				
+				<span id="password1">*Password:</span>
+				<input type="password" id="Password1" name="Password1"> (Your password must be at least 8 characters long)<br>
+				
+				<span id="password2">*Re-enter your password for verification:</span>
+				<input type="password" id="Password2" name="Password2"> <br>			
+				
+				<span id="email">*Email:</span>
+				<input type="text" id="Email" name="Email" size="50" value="Please Enter an Email Address"><br>
+
+				<span id="requiredField"> * Required Field</span>
+				<br>
+				
+				<button type="button" onclick="signUp();">Sign Up</button>
+
+				<br>
+				<div id="message"></div>
+
+			</form>
+		</div>
+	</body>
+</html>
